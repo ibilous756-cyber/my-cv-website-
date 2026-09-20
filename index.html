@@ -3,15 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Завдання 3 - Соцмережі</title>
+    <title>Сайт-Візитка | Іван Білоус</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <ul>
-        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
-    </ul>
+    <!-- 2. Header з навігацією -->
+    <header class="site-header">
+        <div class="logo">IB.Dev</div>
+        <nav class="navigation">
+            <a href="#about">Про мене</a>
+            <a href="#contacts">Контакти</a>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- 3. Секція "Про мене" -->
+        <section id="about" class="section-about">
+            <div class="card">
+                <h1>Іван Білоус</h1>
+                <p class="subtitle">Junior Web Developer & Cyber Security Student</p>
+                <div class="bio">
+                    <p>Привіт! Я навчаюся веброзробці та кібербезпеці. Цікавлюся створенням захищених, сучасних та адаптивних інтерфейсів. Це мій перший офіційний сайт-візитка.</p>
+                </div>
+                <div class="skills">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Cyber Security</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Секція "Контакти" -->
+        <section id="contacts" class="section-contacts">
+            <h2>Контактна інформація</h2>
+            <p>Ви можете зв'язатися зі мною через офіційні канали:</p>
+            <div class="links">
+                <a href="https://github.com" target="_blank" class="btn">Мій GitHub</a>
+                <a href="mailto:ibilousS756@gmail.com" class="btn btn-outline">Надіслати Email</a>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
